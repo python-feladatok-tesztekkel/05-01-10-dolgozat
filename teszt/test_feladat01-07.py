@@ -9,6 +9,6 @@ import feladatok
 
 class Szogek07(TestCase):
     def test_feladat(self):
-        aktualis = feladatok.szog(181)
+        aktualis = feladatok.szog(360)
         elvart = "teljesszög"
         self.assertEqual(elvart, aktualis, elvart+" szöget rosszul határozta meg!")
