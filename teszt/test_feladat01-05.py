@@ -10,5 +10,5 @@ import feladatok
 class Szogek05(TestCase):
     def test_feladat(self):
         aktualis = feladatok.szog(180)
-        elvart = "egyenesszog"
+        elvart = "egyenesszög"
         self.assertEqual(elvart, aktualis, elvart+" szöget rosszul határozta meg!")
